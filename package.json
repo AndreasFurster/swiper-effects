@@ -1,0 +1,32 @@
+{
+  "name": "swiper-effects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasFurster/swiper-effects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasFurster/swiper-effects/issues"
+  },
+  "homepage": "https://github.com/AndreasFurster/swiper-effects#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
+    "@babel/preset-env": "^7.13.10",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1"
+  }
+}
